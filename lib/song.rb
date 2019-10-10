@@ -9,7 +9,7 @@ class Song
     @title = title
   end
   
-  def artist=(song)
-    @song = song 
+  def artist=(artist)
+    @artist = artist
   end
 end
