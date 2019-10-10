@@ -2,7 +2,11 @@ class Artist
   attr_reader :name, :song
   
   def initialize
-    @name = "Beyonce" 
+    @name
     @song = song
+  end
+  
+  def name=(name)
+    @name = name
   end
 end
