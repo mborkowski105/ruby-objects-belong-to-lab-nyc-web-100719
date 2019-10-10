@@ -3,10 +3,14 @@ class Artist
   
   def initialize
     @name
-    @song = song
+    @song
   end
   
   def name=(name)
     @name = name
+  end
+  
+  def song=(song)
+    @song = song 
   end
 end
