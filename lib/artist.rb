@@ -1,5 +1,5 @@
 class Artist 
-  attr_reader :name
+  attr_reader :name, :song
   
   def initialize
     @name
